@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "801839185475",
+    "firebase_url": "https://kids-489bb.firebaseio.com",
+    "project_id": "kids-489bb",
+    "storage_bucket": "kids-489bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801839185475:android:ec8b4669c931b32fc1def6",
+        "android_client_info": {
+          "package_name": "com.example.kids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801839185475-o8k97or1i950eubl6rukbev26c9qt52h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7gv2d0NMtl0HNZdQT69q6jPPLOevutgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801839185475-o8k97or1i950eubl6rukbev26c9qt52h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
