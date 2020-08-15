@@ -37,7 +37,7 @@ import com.squareup.picasso.Picasso;
 import javax.annotation.Nullable;
 
     public class LoginMainActivity extends AppCompatActivity {
-        private static final int GALLERY_INTENT_CODE = 1023 ;
+        private static final int GALLERY_INTENT_CODE = 10000 ;
         TextView fullName,email,phone,verifyMsg;
         FirebaseAuth fAuth;
         FirebaseFirestore fStore;
@@ -47,6 +47,8 @@ import javax.annotation.Nullable;
         FirebaseUser user;
         ImageView profileImage;
         StorageReference storageReference;
+        Button dashborad;
+
 
 
     @Override
@@ -65,8 +67,8 @@ import javax.annotation.Nullable;
         fStore = FirebaseFirestore.getInstance();
         storageReference = FirebaseStorage.getInstance().getReference();
 
-        /*StorageReference profileRef = storageReference.child("users/"+fAuth.getCurrentUser().getUid()+"/profile.jpg");
-        profileRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+        StorageReference profileRef = storageReference.child("users/"+fAuth.getCurrentUser().getUid()+"/profile.jpg");
+        /*profileRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
             @Override
             public void onSuccess(Uri uri) {
                 Picasso.get().load(uri).into(profileImage);
@@ -173,16 +175,25 @@ import javax.annotation.Nullable;
                 i.putExtra("email",email.getText().toString());
                 i.putExtra("phone",phone.getText().toString());
                 startActivity(i);
-//
+
+            }
+        });
+
+        dashborad = (Button) findViewById(R.id.dashborad);
+
+        dashborad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(LoginMainActivity.this,Dashboard.class);
+                startActivity(intent);
+
 
             }
         });
 
 
     }
-
-
-
 
     public void logout(View view) {
         FirebaseAuth.getInstance().signOut();//logout

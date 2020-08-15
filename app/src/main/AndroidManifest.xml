@@ -12,11 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".EditProfile" />
-        <activity android:name=".LoginMainActivity" >
-        </activity>
-        <activity android:name=".Registration"
+        <activity android:name=".LoginMainActivity" />
+        <activity
+            android:name=".Registration"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,11 +24,10 @@
         </activity>
         <activity
             android:name=".Login"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-
-
-        </activity>
-        <activity android:name=".Dashboard" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".OpeningPage"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -38,11 +36,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".Comments" />
-        <activity android:name=".NextActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Comments"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NextActivity"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".MainActivity"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
         <meta-data
             android:name="preloaded_fonts"

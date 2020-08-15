@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -26,7 +27,7 @@ import java.util.List;
 
 public class Dashboard extends AppCompatActivity {
 
-    Button btn1, btn2;
+    TextView textView3,textView4,textView6,textView7,textView8;
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     StorageReference storageReference;
@@ -41,9 +42,13 @@ public class Dashboard extends AppCompatActivity {
         fStore = FirebaseFirestore.getInstance();
         storageReference = FirebaseStorage.getInstance().getReference();
 
-        btn1 = (Button) findViewById(R.id.button2);
+        textView3   = findViewById(R.id.textView3);
+        textView4   = findViewById(R.id.textView4);
+        textView6   = findViewById(R.id.textView6);
+        textView7  = findViewById(R.id.textView7);
+        textView8   = findViewById(R.id.textView8);
 
-        btn1.setOnClickListener(new View.OnClickListener() {
+        textView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -52,13 +57,38 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        btn2 = (Button) findViewById(R.id.button4);
-
-        btn2.setOnClickListener(new View.OnClickListener() {
+        textView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Intent intent = new Intent(Dashboard.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        textView6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(Dashboard.this,LoginMainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        textView7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(Dashboard.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        textView8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(Dashboard.this,LoginMainActivity.class);
                 startActivity(intent);
             }
         });

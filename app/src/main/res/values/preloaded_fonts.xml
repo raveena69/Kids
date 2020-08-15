@@ -2,8 +2,10 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/amaranth</item>
+        <item>@font/arvo</item>
         <item>@font/autour_one</item>
         <item>@font/chewy</item>
         <item>@font/luckiest_guy</item>
+        <item>@font/marko_one</item>
     </array>
 </resources>

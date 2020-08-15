@@ -4,17 +4,104 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="@drawable/dashboard_back1"
     tools:context=".Comments">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="152dp"
-        android:layout_height="69dp"
-        android:text="TextView"
-        android:textColor="#4C5795"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:fontFamily="@font/autour_one"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:shadowColor="#215278"
+        android:textColorHint="#215278"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:fontFamily="@font/autour_one"
+        android:hint="Comment"
+        android:inputType="text"
+        android:textColor="#215278"
+        android:textColorHint="#215278"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/storyName" />
+
+    <EditText
+        android:id="@+id/storyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@font/autour_one"
+        android:hint="Story Name"
+        android:inputType="textPersonName"
+        android:textColor="#215278"
+        android:textColorHint="#215278"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_name" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#556D80"
+        android:fontFamily="@font/chewy"
+        android:text="Submit"
+        android:textColor="#F1F5F8"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comment" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="409dp"
+        android:layout_height="360dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="16dp"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_save"
+        app:layout_constraintVertical_bias="0.928"
+        tools:ignore="MissingConstraints">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_main"
+            android:layout_width="match_parent"
+            android:layout_height="335dp"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amaranth"
+        android:text="Comments"
+        android:textColor="#2E5E85"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
