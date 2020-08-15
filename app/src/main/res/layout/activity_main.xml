@@ -15,7 +15,7 @@
         android:layout_height="87dp"
         android:layout_marginLeft="23dp"
         android:fontFamily="@font/amaranth"
-        android:text="Stories for Kids"
+        android:text="@string/stories_for_kids"
         android:textAlignment="center"
         android:textColor="#215177"
         android:textSize="50sp" />
