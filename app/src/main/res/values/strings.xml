@@ -11,6 +11,15 @@
     <string name="register">Register</string>
     <string name="logout">Logout</string>
     <string name="stories_for_kids">Stroies for Kids</string>
+    <string name="vehicles">vehicles</string>
+    <string name="animals">Animals</string>
+    <string name="colours">colours</string>
+    <string name="picture_identify">Picture Identify</string>
+    <string name="type_the_colour">Type the colour</string>
+    <string name="colours1">Colours</string>
+    <string name="checkedtextview">CheckedTextView</string>
+    <string name="delete">Delete</string>
+
 </resources>
 
 
