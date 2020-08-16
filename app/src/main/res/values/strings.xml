@@ -11,7 +11,32 @@
     <string name="register">Register</string>
     <string name="logout">Logout</string>
     <string name="stories_for_kids">Stroies for Kids</string>
-</resources>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="numbertopic">Numbers</string>
+    <string name="_7">7</string>
+    <string name="_5">5</string>
+    <string name="_9">9</string>
+    <string name="_6">6</string>
+    <string name="_8">8</string>
+    <string name="_0">0</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="subtract">Subtract</string>
+    <string name="addition">Addition</string>
+    <string name="headingt1">App Name</string>
+    <string name="numbers">Numbers</string>
+    <string name="learn_to_count">Learn To Count</string>
+    <string name="count_amp_type"><![CDATA[Count & Type]]></string>
+    <string name="checkedtextview">CheckedTextView</string>
+    <string name="_7_9">7  +  9  =  ?</string>
+    <string name="answer">Answer</string>
+    <string name="numtextnew">7 + 9 = ?</string>
+    <string name="numtextnew1">7 - 9 = ?</string>
+    <string name="next">Next</string>
+    </resources>
+
+
 
 
 

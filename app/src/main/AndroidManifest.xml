@@ -11,6 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".subtract"></activity>
+        <activity android:name=".Addition"></activity>
+        <activity android:name=".NCount" ></activity>
+        <activity android:name=".Numbers"></activity>
+        <activity android:name=".NHome" ></activity>
         <activity android:name=".EditProfile" />
         <activity android:name=".LoginMainActivity" />
         <activity
@@ -37,12 +42,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Comments"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <activity android:name=".NextActivity"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <activity android:name=".MainActivity"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".Comments"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".NextActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
 
         <meta-data
             android:name="preloaded_fonts"
