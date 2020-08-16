@@ -72,23 +72,24 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="409dp"
-        android:layout_height="360dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="375dp"
+        android:layout_height="341dp"
+        android:layout_marginStart="8dp"
 
+        android:layout_marginEnd="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_save"
-        app:layout_constraintVertical_bias="0.928"
         tools:ignore="MissingConstraints">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerview_main"
             android:layout_width="match_parent"
             android:layout_height="335dp"
-            android:layout_marginTop="10dp" />
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
     </LinearLayout>
 
     <TextView
