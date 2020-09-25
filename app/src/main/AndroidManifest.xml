@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
       
+        <activity android:name=".SChecking"></activity>
+        <activity android:name=".SColours" />
+        <activity android:name=".PictureIdentify" />
+      
         <activity android:name=".subtract"></activity>
         <activity android:name=".Addition"></activity>
         <activity android:name=".NCount" ></activity>
