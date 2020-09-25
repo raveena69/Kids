@@ -39,16 +39,11 @@
     <string name="numbers">Numbers</string>
     <string name="learn_to_count">Learn To Count</string>
     <string name="count_amp_type"><![CDATA[Count & Type]]></string>
-    <string name="checkedtextview">CheckedTextView</string>
     <string name="_7_9">7  +  9  =  ?</string>
     <string name="answer">Answer</string>
     <string name="numtextnew">7 + 9 = ?</string>
     <string name="numtextnew1">7 - 9 = ?</string>
     <string name="next">Next</string>
-    </resources>
-
-
-    <string name="stories_for_kids">Stories for Kids</string>
 
     <string name="lowercase">lowercase</string>
     <string name="uppercase">UPPERCASE</string>
