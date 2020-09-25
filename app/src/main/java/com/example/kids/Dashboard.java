@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -27,10 +28,10 @@ import java.util.List;
 
 public class Dashboard extends AppCompatActivity {
 
-    TextView textView3,textView4,textView6,textView7,textView8;
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     StorageReference storageReference;
+    RelativeLayout alphabet,numbers,pictures,stories,profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,13 +43,13 @@ public class Dashboard extends AppCompatActivity {
         fStore = FirebaseFirestore.getInstance();
         storageReference = FirebaseStorage.getInstance().getReference();
 
-        textView3   = findViewById(R.id.textView3);
-        textView4   = findViewById(R.id.textView4);
-        textView6   = findViewById(R.id.textView6);
-        textView7  = findViewById(R.id.textView7);
-        textView8   = findViewById(R.id.textView8);
+        alphabet   = findViewById(R.id.alphabet);
+        numbers   = findViewById(R.id.numbers);
+        pictures   = findViewById(R.id.pictures);
+        stories = findViewById(R.id.stories);
+        profile   = findViewById(R.id.profile);
 
-        textView3.setOnClickListener(new View.OnClickListener() {
+        alphabet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -57,7 +58,7 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        textView4.setOnClickListener(new View.OnClickListener() {
+        numbers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -66,7 +67,7 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        textView6.setOnClickListener(new View.OnClickListener() {
+        pictures.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -75,7 +76,7 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        textView7.setOnClickListener(new View.OnClickListener() {
+        stories.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -84,7 +85,7 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        textView8.setOnClickListener(new View.OnClickListener() {
+        profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
