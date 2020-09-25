@@ -9,6 +9,19 @@
     tools:context=".Comments">
 
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amaranth"
+        android:text="@string/comments"
+        android:textColor="#2E5E85"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/editText_name"
         android:layout_width="wrap_content"
@@ -59,49 +72,37 @@
         android:id="@+id/button_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:background="#556D80"
         android:fontFamily="@font/chewy"
         android:text="@string/submit"
         android:textColor="#F1F5F8"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/comment" />
+        app:layout_constraintTop_toBottomOf="@+id/comment"
+        app:layout_constraintVertical_bias="0.031" />
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="409dp"
-        android:layout_height="360dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="375dp"
+        android:layout_height="341dp"
+        android:layout_marginStart="8dp"
 
+        android:layout_marginEnd="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_save"
-        app:layout_constraintVertical_bias="0.928"
         tools:ignore="MissingConstraints">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerview_main"
             android:layout_width="match_parent"
-            android:layout_height="335dp"
-            android:layout_marginTop="10dp" />
+            android:layout_height="335dp" />
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/amaranth"
-        android:text="@string/comments"
-        android:textColor="#2E5E85"
-        android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText_name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

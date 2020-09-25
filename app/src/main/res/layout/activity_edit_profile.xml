@@ -7,17 +7,17 @@
     tools:context=".EditProfile"
     android:background="@drawable/login_back2">
 
-    <EditText
+    <TextView
         android:id="@+id/profileFullName"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="359dp"
+        android:layout_height="38dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
-        android:hint="Your Name"
         android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
+        android:text="Name"
+        android:textColor="#33536C"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -40,35 +40,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/profileEmailAddress"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="365dp"
+        android:layout_height="46dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="24dp"
         android:ems="10"
-        android:hint="Your Email Address"
         android:inputType="textEmailAddress"
+        android:text="Your Email Address"
+        android:textColor="#33536C"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profileFullName" />
 
-    <EditText
+    <TextView
         android:id="@+id/profilePhoneNo"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="367dp"
+        android:layout_height="46dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="24dp"
         android:ems="10"
-        android:hint="Phone"
         android:inputType="phone"
+        android:text="Phone"
+        android:textColor="#33536C"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profileEmailAddress" />
 
