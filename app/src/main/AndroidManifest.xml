@@ -14,19 +14,23 @@
       
         <activity android:name=".SChecking"></activity>
         <activity android:name=".SColours" />
-        <activity android:name=".PictureIdentify" />
+        <activity android:name=".PictureIdentify"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
       
         <activity android:name=".subtract"></activity>
         <activity android:name=".Addition"></activity>
         <activity android:name=".NCount" ></activity>
-        <activity android:name=".Numbers"></activity>
+        <activity android:name=".Numbers"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
         <activity android:name=".NHome" ></activity>
   
-        <activity android:name=".Alphabet"></activity>
+        <activity android:name=".Alphabet"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
         <activity android:name=".MainActivity3" />
         <activity android:name=".MainActivity2" />
       
-        <activity android:name=".EditProfile" />
+        <activity android:name=".EditProfile"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".LoginMainActivity" />
         <activity
             android:name=".Registration"
