@@ -8,94 +8,90 @@
     tools:context=".Comments">
 
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/amaranth"
-        android:text="@string/comments"
-        android:textColor="#2E5E85"
-        android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText_name"
-        app:layout_constraintEnd_toEndOf="parent"
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="409dp"
+        android:layout_height="377dp"
+        android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:ignore="MissingConstraints">
 
-    <EditText
-        android:id="@+id/editText_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        android:ems="10"
-        android:fontFamily="@font/autour_one"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        android:shadowColor="#215278"
-        android:textColorHint="#215278"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/amaranth"
+            android:text="@string/comments"
+            android:textAlignment="center"
+            android:textColor="#2E5E85"
+            android:textSize="60sp" />
 
-    <EditText
-        android:id="@+id/comment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:fontFamily="@font/autour_one"
-        android:hint="Comment"
-        android:inputType="text"
-        android:textColor="#215278"
-        android:textColorHint="#215278"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/storyName" />
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:fontFamily="@font/autour_one"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:shadowColor="#215278"
+            android:textColorHint="#215278" />
 
-    <EditText
-        android:id="@+id/storyName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:fontFamily="@font/autour_one"
-        android:hint="Story Name"
-        android:inputType="textPersonName"
-        android:textColor="#215278"
-        android:textColorHint="#215278"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_name" />
+        <EditText
+            android:id="@+id/storyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:fontFamily="@font/autour_one"
+            android:hint="Story Name"
+            android:inputType="textPersonName"
+            android:textColor="#215278"
+            android:textColorHint="#215278" />
 
-    <Button
-        android:id="@+id/button_save"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="#556D80"
-        android:fontFamily="@font/chewy"
-        android:text="@string/submit"
-        android:textColor="#F1F5F8"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/comment"
-        app:layout_constraintVertical_bias="0.031" />
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/autour_one"
+            android:hint="Comment"
+            android:inputType="text"
+            android:textColor="#215278"
+            android:textColorHint="#215278" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="25dp"
+            android:background="#556D80"
+            android:fontFamily="@font/chewy"
+            android:text="@string/submit"
+            android:textColor="#F1F5F8"
+            android:textSize="24sp" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="375dp"
         android:layout_height="341dp"
-        android:layout_marginStart="8dp"
 
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="13dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_save"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
         tools:ignore="MissingConstraints">
 
         <androidx.recyclerview.widget.RecyclerView

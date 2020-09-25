@@ -45,8 +45,8 @@ public class Comments extends AppCompatActivity {
         setContentView(R.layout.activity_comments);
 
         name_et = findViewById(R.id.editText_name);
-        story_name_et = findViewById(R.id.comment);
-        comment_et = findViewById(R.id.storyName);
+        story_name_et = findViewById(R.id.storyName);
+        comment_et = findViewById(R.id.comment);
         upload = new Upload();
         button_save = findViewById(R.id.button_save);
         recyclerView = findViewById(R.id.recyclerview_main);
