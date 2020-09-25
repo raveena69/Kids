@@ -10,6 +10,7 @@
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="logout">Logout</string>
+  
     <string name="stories_for_kids">Stroies for Kids</string>
     <string name="_4">4</string>
     <string name="_3">3</string>
@@ -37,6 +38,14 @@
     </resources>
 
 
+    <string name="stories_for_kids">Stories for Kids</string>
+
+    <string name="lowercase">lowercase</string>
+    <string name="uppercase">UPPERCASE</string>
+    <string name="naming_the_image">Naming the Image</string>
+    <string name="p">P</string>
+    <string name="enter_name">Enter Name</string>
+</resources>
 
 
 
