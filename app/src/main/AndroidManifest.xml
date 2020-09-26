@@ -33,8 +33,15 @@
         <activity android:name=".MainActivity2" />
       
         <activity android:name=".EditProfile"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <activity android:name=".LoginMainActivity" />
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginMainActivity"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".Registration"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
