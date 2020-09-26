@@ -11,26 +11,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-      
-        <activity android:name=".SChecking"></activity>
+
+        <activity android:name=".SChecking" />
         <activity android:name=".SColours" />
-        <activity android:name=".PictureIdentify"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-      
-        <activity android:name=".subtract"></activity>
-        <activity android:name=".Addition"></activity>
-        <activity android:name=".NCount" ></activity>
-        <activity android:name=".Numbers"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-        <activity android:name=".NHome" ></activity>
-  
-        <activity android:name=".Alphabet"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".PictureIdentify"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".subtract" />
+        <activity android:name=".Addition" />
+        <activity android:name=".NCount" />
+        <activity
+            android:name=".Numbers"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".NHome" />
+
+        <activity
+            android:name=".Alphabet"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".MainActivity3" />
         <activity android:name=".MainActivity2" />
       
         <activity android:name=".EditProfile"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".LoginMainActivity" />
         <activity
             android:name=".Registration"
