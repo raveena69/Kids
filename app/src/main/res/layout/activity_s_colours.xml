@@ -4,167 +4,137 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#66b3ff"
+    android:background="@drawable/bg3"
     tools:context=".SColours">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="174dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="52dp"
-        android:autofillHints="@string/colours"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/type_the_colour"
-        android:textSize="24sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="174dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="36dp"
-        android:autofillHints="@string/colours"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/type_the_colour"
-        android:textSize="24sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="80dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:srcCompat="@drawable/sacheewayellow" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="174dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="52dp"
-        android:autofillHints="@string/colours"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/type_the_colour"
-        android:textSize="24sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="80dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="52dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName6"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:srcCompat="@drawable/sacheewagreen" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="80dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/sacheewablack" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="80dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName5"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:srcCompat="@drawable/sacheewablue" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="80dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="76dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName4"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
-        app:srcCompat="@drawable/sachred" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="174dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="52dp"
-        android:autofillHints="@string/colours"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/type_the_colour"
-        android:textSize="24sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="148dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="32dp"
-        android:background="#B50270A3"
-  
-        android:text="@string/submit"
-        android:textColor="#FFFCFC"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="174dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="52dp"
-        android:autofillHints="@string/colours"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/type_the_colour"
-        android:textSize="24sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <TextView
-        android:id="@+id/textView10"
-        android:layout_width="197dp"
-        android:layout_height="61dp"
-        android:layout_marginTop="36dp"
-        android:gravity="center"
-        android:text="@string/colours1"
-        android:background="@drawable/roundbuttonsach3"
+        android:id="@+id/text8"
+        android:layout_width="237dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/roundbuttonsach2"
+        android:text="Colours"
+        android:textAlignment="center"
+        android:textColor="#715757"
+        android:textColorHighlight="#000000"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text8"
+        tools:srcCompat="@drawable/sred" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        tools:srcCompat="@drawable/sblue" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/spink" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/sgreen" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="93dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/syellow" />
+
+    <EditText
+        android:id="@+id/inputtext1"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter the colour"
+        android:textColor="#A8A2A2"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <EditText
+        android:id="@+id/inputtext2"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter the colour"
+        android:textColor="#A8A2A2"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <EditText
+        android:id="@+id/inputtext3"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter the colour"
+        android:textColor="#A8A2A2"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <EditText
+        android:id="@+id/inputtext4"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter the colour"
+        android:textColor="#A8A2A2"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <EditText
+        android:id="@+id/inputtext5"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter the colour"
+        android:textColor="#A8A2A2"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="567dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
