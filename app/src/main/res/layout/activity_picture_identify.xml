@@ -69,7 +69,7 @@
         app:layout_constraintBottom_toTopOf="@+id/text4"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/Psach4" />
+        app:srcCompat="@drawable/psach4" />
 
     <TextView
         android:id="@+id/text4"
@@ -131,7 +131,7 @@
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/text6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/Psach6" />
+        app:srcCompat="@drawable/psach6" />
 
     <TextView
         android:id="@+id/text6"
@@ -154,7 +154,7 @@
         android:layout_marginBottom="28dp"
         app:layout_constraintBottom_toTopOf="@+id/text7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/Psach7" />
+        app:srcCompat="@drawable/psach7" />
 
     <TextView
         android:id="@+id/text7"

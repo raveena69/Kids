@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView21"
-        app:srcCompat="@drawable/sacheewagreen" />
+        app:srcCompat="@drawable/sgreen" />
 
     <TextView
         android:id="@+id/textView15"
@@ -55,7 +55,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView23"
-        app:srcCompat="@drawable/sacheewablue" />
+        app:srcCompat="@drawable/sblue" />
 
     <Button
         android:id="@+id/button2"
@@ -78,7 +78,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:srcCompat="@drawable/sachred" />
+        app:srcCompat="@drawable/sred" />
 
     <ImageView
         android:id="@+id/imageView21"
@@ -89,7 +89,7 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView20"
-        app:srcCompat="@drawable/sacheewayellow" />
+        app:srcCompat="@drawable/syellow" />
 
     <TextView
         android:id="@+id/textView14"
@@ -114,7 +114,7 @@
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView22"
-        app:srcCompat="@drawable/sacheewablack" />
+        app:srcCompat="@drawable/spink" />
 
     <TextView
         android:id="@+id/textView16"
