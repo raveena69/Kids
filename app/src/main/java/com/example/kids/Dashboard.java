@@ -71,7 +71,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Dashboard.this,PictureIdentify.class);
+                Intent intent = new Intent(Dashboard.this,Mpictureidentify.class);
                 startActivity(intent);
             }
         });

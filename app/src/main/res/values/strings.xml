@@ -10,7 +10,7 @@
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="logout">Logout</string>
-  
+
     <string name="vehicles">vehicles</string>
     <string name="animals">Animals</string>
     <string name="colours">colours</string>
@@ -41,14 +41,14 @@
     <string name="numtextnew">7 + 9 = ?</string>
     <string name="numtextnew1">7 - 9 = ?</string>
     <string name="next">Next</string>
-  
+
     <string name="stories_for_kids">Stories for Kids</string>
     <string name="lowercase">lowercase</string>
     <string name="uppercase">UPPERCASE</string>
     <string name="naming_the_image">Naming the Image</string>
     <string name="p">P</string>
     <string name="enter_name">Enter Name</string>
-  
+
     <string name="name">Name</string>
     <string name="your_email_address">Your Email Address</string>
     <string name="phone">Phone</string>
