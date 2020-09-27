@@ -3,6 +3,7 @@ package com.example.kids;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -44,6 +45,10 @@ public class EditProfile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_profile);
+        profileFullName = findViewById(R.id.profileFullName);
+        profileEmail = findViewById(R.id.profileEmailAddress);
+        profilePhone = findViewById(R.id.profilePhoneNo);
+        saveBtn = findViewById(R.id.saveProfileInfo);
 
         Intent data = getIntent();
         final String fullName = data.getStringExtra("fullName");
@@ -55,10 +60,7 @@ public class EditProfile extends AppCompatActivity {
         user = fAuth.getCurrentUser();
         storageReference = FirebaseStorage.getInstance().getReference();
 
-        profileFullName = findViewById(R.id.profileFullName);
-        profileEmail = findViewById(R.id.profileEmailAddress);
-        profilePhone = findViewById(R.id.profilePhoneNo);
-        saveBtn = findViewById(R.id.saveProfileInfo);
+
 
         /*StorageReference profileRef = storageReference.child("users/"+fAuth.getCurrentUser().getUid()+"/profile.jpg");
         profileRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {

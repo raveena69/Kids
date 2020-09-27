@@ -129,7 +129,9 @@
         android:layout_height="54dp"
         android:layout_marginTop="32dp"
         android:background="#B50270A3"
+  
         android:text="@string/submit"
+        android:textColor="#FFFCFC"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
