@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/story_back2"
+    android:background="@drawable/story_back3"
     android:padding="5dp"
     tools:context=".NextActivity">
 
@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/marko_one"
             android:textAlignment="viewStart"
-            android:textColor="#DFE1EA"
+            android:textColor="#4D5DA5"
             android:textSize="24sp" />
 
     </ScrollView>
