@@ -121,7 +121,7 @@ public class Comments extends AppCompatActivity {
     private void showDeleteDataDialog(final String name){
         AlertDialog .Builder builder = new AlertDialog.Builder(Comments.this);
         builder.setTitle("Delete");
-        builder.setMessage("Are you Sure to Delete this Data");
+        builder.setMessage("Are you Sure you want to Delete this Data");
         builder.setPositiveButton("yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
