@@ -25,13 +25,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView1"
         android:layout_width="113dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
         app:layout_constraintBottom_toTopOf="@+id/text2"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text1"
@@ -44,7 +44,7 @@
         android:layout_height="81dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/text3"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@drawable/vass2" />
 
@@ -68,7 +68,7 @@
         android:layout_height="81dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/text4"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/vass4" />
 
@@ -101,7 +101,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageView4"
         android:layout_width="113dp"
         android:layout_height="81dp"
         android:layout_marginTop="72dp"
@@ -122,11 +122,11 @@
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageView5"
         android:layout_width="113dp"
         android:layout_height="81dp"
         android:layout_marginEnd="60dp"
@@ -145,11 +145,11 @@
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView6"
         android:layout_width="113dp"
         android:layout_height="81dp"
         android:layout_marginEnd="60dp"

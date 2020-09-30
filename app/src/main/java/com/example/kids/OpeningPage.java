@@ -31,7 +31,7 @@ public class OpeningPage extends AppCompatActivity {
         bottomAnim = AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
 
         //Hooks
-        image = findViewById(R.id.imageView);
+        image = findViewById(R.id.imageView1);
         logo = findViewById(R.id.textView);
 
         image.setAnimation(topAnim);
