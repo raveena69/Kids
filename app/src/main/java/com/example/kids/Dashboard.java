@@ -38,11 +38,6 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-
-        fAuth = FirebaseAuth.getInstance();
-        fStore = FirebaseFirestore.getInstance();
-        storageReference = FirebaseStorage.getInstance().getReference();
-
         alphabet   = findViewById(R.id.alphabet);
         numbers   = findViewById(R.id.numbers);
         pictures   = findViewById(R.id.pictures);
@@ -93,6 +88,11 @@ public class Dashboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        fAuth = FirebaseAuth.getInstance();
+        fStore = FirebaseFirestore.getInstance();
+        storageReference = FirebaseStorage.getInstance().getReference();
+
+
 
 
 }
