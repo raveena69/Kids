@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 title_list.clear();
                 story_list.clear();
-//efegdgdfgfdgfgfgg
+
                 for (DataSnapshot ds: dataSnapshot.getChildren()){
                     myStory  = ds.getValue(MyStory.class);
                     if (myStory != null) {
