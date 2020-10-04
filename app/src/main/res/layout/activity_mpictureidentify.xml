@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:background="@drawable/bg6"
     android:layout_height="match_parent"
-    tools:context=".Mpictureidentify">
+    tools:context=".Mpictureidentify"
+    tools:ignore="ExtraText">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -96,7 +97,8 @@
         android:layout_height="81dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/text2"
+        tools:ignore="DuplicateIds" />
+        <!--app:layout_constraintBottom_toTopOf="@+id/text2"-->
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

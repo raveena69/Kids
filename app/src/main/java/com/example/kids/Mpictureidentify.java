@@ -1,15 +1,12 @@
 package com.example.kids;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Mpictureidentify extends AppCompatActivity {
 
@@ -40,7 +37,7 @@ public class Mpictureidentify extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Mpictureidentify.this,Numbers.class);
+                Intent intent = new Intent(Mpictureidentify.this,NumberDash.class);
                 startActivity(intent);
             }
         });

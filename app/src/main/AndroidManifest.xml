@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.kids">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Mvehiclechecking"></activity>
+        <activity android:name=".Mvehiclechecking" />
         <activity android:name=".Mvehicle" />
         <activity android:name=".Mview" />
         <activity
@@ -29,33 +30,45 @@
         <activity
             android:name=".Mpictureidentify"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".subtract" />
-        <activity android:name=".NCount" />
-        <activity
-            android:name=".Numbers"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".NHome" />
-        <activity android:name=".NumberTen"></activity>
-        <activity android:name=".NumberNine" />
-        <activity android:name=".NumberEight" />
-        <activity android:name=".NumberSeven" />
-        <activity android:name=".NumberSix" />
-        <activity android:name=".NumberFive" />
-        <activity android:name=".NumberFour" />
-        <activity android:name=".NumberThree" />
-        <activity android:name=".SubtractResult" />
-        <activity android:name=".Subtract" />
-        <activity android:name=".AdditionResult" />
-        <activity android:name=".Addition" />
-        <activity android:name=".NumberTwo" />
-        <activity android:name=".NumberOne" />
-        <activity android:name=".NumberLearn" />
-        <activity android:name=".NumberDash" />
+        <activity android:name=".NumberTen"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumberNine"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumberEight"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumberSeven"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumberSix"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumberFive"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumberFour"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumberThree"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".SubtractResult"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Subtract"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".AdditionResult"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Addition"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumberTwo"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumberOne"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumberLearn"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumberDash"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".Alphabet"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".MainActivity3" />
-        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity3"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".MainActivity2"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".EditProfile"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -79,7 +92,8 @@
         </activity>
         <activity
             android:name=".Login"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".Dashboard"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
