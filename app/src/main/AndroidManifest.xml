@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NumberFive"></activity>
+        <activity android:name=".NumberSix"></activity>
+        <activity android:name=".NumberFive" />
         <activity android:name=".NumberFour" />
         <activity android:name=".NumberThree" />
         <activity android:name=".SubtractResult" />
