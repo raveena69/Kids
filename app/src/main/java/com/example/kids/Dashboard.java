@@ -53,7 +53,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Dashboard.this,LoginMainActivity.class);
+                Intent intent = new Intent(Dashboard.this,Alphabet.class);
                 startActivity(intent);
             }
         });
@@ -62,7 +62,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Dashboard.this,MainActivity.class);
+                Intent intent = new Intent(Dashboard.this,Numbers.class);
                 startActivity(intent);
             }
         });
@@ -71,7 +71,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Dashboard.this,LoginMainActivity.class);
+                Intent intent = new Intent(Dashboard.this,Mpictureidentify.class);
                 startActivity(intent);
             }
         });

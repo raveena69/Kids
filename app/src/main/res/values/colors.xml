@@ -12,6 +12,8 @@
         <color name="testcolorblue">#152b38</color>
         <color name="pink">#fe104d</color>
         <color name="black_overlay">#66000000</color>
+        <color name="numbtncol">#031AF8</color>
+        <color name="numtextcol">#FFFFFF</color>
 </resources>
 
 
