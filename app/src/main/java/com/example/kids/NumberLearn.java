@@ -147,12 +147,12 @@ public class NumberLearn extends AppCompatActivity {
         startActivity(intent);
     }
     public void openNumberNineAct (){
-       // Intent intent = new Intent(this, NumberNine.class);
-      //  startActivity(intent);
+       Intent intent = new Intent(this, NumberNine.class);
+       startActivity(intent);
     }
     public void openNumberTenAct (){
-        //Intent intent = new Intent(this, NumberTen.class);
-       // startActivity(intent);
+        Intent intent = new Intent(this, NumberTen.class);
+        startActivity(intent);
     }
 
 
