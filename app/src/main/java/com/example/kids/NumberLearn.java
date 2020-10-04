@@ -123,12 +123,12 @@ public class NumberLearn extends AppCompatActivity {
         startActivity(intent);
     }
     public void openNumberThreeAct (){
-        //Intent intent = new Intent(this, NumberThree.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, NumberThree.class);
+        startActivity(intent);
     }
     public void openNumberFourAct (){
-       // Intent intent = new Intent(this, NumberFour.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, NumberFour.class);
+        startActivity(intent);
     }
     public void openNumberFiveAct (){
         //Intent intent = new Intent(this, NumberFive.class);
