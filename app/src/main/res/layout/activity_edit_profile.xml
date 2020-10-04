@@ -16,13 +16,14 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="@string/name"
         android:textColor="#33536C"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profileImageView" />
+        app:layout_constraintTop_toBottomOf="@+id/profileImageView"
+        tools:ignore="TextViewEdits" />
 
     <!--app:srcCompat="@drawable/login_back2" -->
 
@@ -49,13 +50,14 @@
         android:layout_marginEnd="24dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="Your Email Address"
+        android:text="@string/your_email_address"
         android:textColor="#33536C"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profileFullName" />
+        app:layout_constraintTop_toBottomOf="@+id/profileFullName"
+        tools:ignore="TextViewEdits" />
 
     <TextView
         android:id="@+id/profilePhoneNo"
@@ -66,12 +68,13 @@
         android:layout_marginEnd="24dp"
         android:ems="10"
         android:inputType="phone"
-        android:text="Phone"
+        android:text="@string/phone"
         android:textColor="#33536C"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profileEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/profileEmailAddress"
+        tools:ignore="TextViewEdits" />
 
     <Button
         android:id="@+id/saveProfileInfo"
@@ -79,7 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="152dp"
         android:background="#256191"
-        android:text="Save"
+        android:text="@string/save"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

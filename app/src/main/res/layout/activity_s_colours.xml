@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".SColours">
+
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="237dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/roundbuttonsach2"
+        android:text="Colours"
+        android:textAlignment="center"
+        android:textColor="#715757"
+        android:textColorHighlight="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/inputtext1"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text8"
+        tools:srcCompat="@drawable/sred" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/inputtext2"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        tools:srcCompat="@drawable/sblue" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/inputtext3"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/spink" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/inputtext4"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/sgreen" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="93dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/bttn"
+        app:layout_constraintEnd_toStartOf="@+id/inputtext5"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/syellow" />
+
+    <EditText
+        android:id="@+id/inputtext1"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter the colour"
+        android:textColor="#A8A2A2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text8" />
+
+    <EditText
+        android:id="@+id/inputtext2"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter the colour"
+        android:textColor="#A8A2A2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputtext1" />
+
+    <EditText
+        android:id="@+id/inputtext3"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter the colour"
+        android:textColor="#A8A2A2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputtext2" />
+
+    <EditText
+        android:id="@+id/inputtext4"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter the colour"
+        android:textColor="#A8A2A2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputtext3" />
+
+    <EditText
+        android:id="@+id/inputtext5"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter the colour"
+        android:textColor="#A8A2A2"
+        app:layout_constraintBottom_toTopOf="@+id/bttn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputtext4"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <Button
+        android:id="@+id/bttn"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="72dp"
+        android:text="submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

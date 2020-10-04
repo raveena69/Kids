@@ -11,11 +11,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Alphabet"></activity>
+        <activity android:name=".Mchecking"></activity>
+        <activity android:name=".Mcolours" />
+        <activity android:name=".Mpictureidentify" />
+        <activity android:name=".subtract" />
+        <activity android:name=".Addition" />
+        <activity android:name=".NCount" />
+        <activity
+            android:name=".Numbers"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".NHome" />
+        <activity
+            android:name=".Alphabet"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".MainActivity3" />
         <activity android:name=".MainActivity2" />
-        <activity android:name=".EditProfile" />
-        <activity android:name=".LoginMainActivity" />
+        <activity
+            android:name=".EditProfile"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginMainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".Registration"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -30,12 +52,12 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".Dashboard"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".OpeningPage"

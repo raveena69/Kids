@@ -45,8 +45,8 @@ public class Comments extends AppCompatActivity {
         setContentView(R.layout.activity_comments);
 
         name_et = findViewById(R.id.editText_name);
-        story_name_et = findViewById(R.id.comment);
-        comment_et = findViewById(R.id.storyName);
+        story_name_et = findViewById(R.id.storyName);
+        comment_et = findViewById(R.id.comment);
         upload = new Upload();
         button_save = findViewById(R.id.button_save);
         recyclerView = findViewById(R.id.recyclerview_main);
@@ -121,7 +121,7 @@ public class Comments extends AppCompatActivity {
     private void showDeleteDataDialog(final String name){
         AlertDialog .Builder builder = new AlertDialog.Builder(Comments.this);
         builder.setTitle("Delete");
-        builder.setMessage("Are you Sure to Delete this Data");
+        builder.setMessage("Are you Sure you want to Delete this Data");
         builder.setPositiveButton("yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
