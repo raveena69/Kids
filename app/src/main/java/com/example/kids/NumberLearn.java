@@ -143,8 +143,8 @@ public class NumberLearn extends AppCompatActivity {
         startActivity(intent);
     }
     public void openNumberEightAct (){
-        //Intent intent = new Intent(this, NumberEight.class);
-       // startActivity(intent);
+        Intent intent = new Intent(this, NumberEight.class);
+        startActivity(intent);
     }
     public void openNumberNineAct (){
        // Intent intent = new Intent(this, NumberNine.class);
