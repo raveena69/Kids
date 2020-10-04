@@ -140,8 +140,8 @@ public class Subtract extends AppCompatActivity {
     }
 
     public void openAddResultAct(){
-        //Intent intent = new Intent(this,SubtractResult.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this,SubtractResult.class);
+        startActivity(intent);
     }
 
 

@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Subtract"></activity>
+        <activity android:name=".SubtractResult"></activity>
+        <activity android:name=".Subtract" />
         <activity android:name=".AdditionResult" />
         <activity android:name=".Addition" />
         <activity android:name=".NumberTwo" />
