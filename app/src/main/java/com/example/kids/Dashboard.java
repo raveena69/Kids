@@ -61,7 +61,8 @@ public class Dashboard extends AppCompatActivity {
         numbers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(Dashboard.this,NumberDash.class);
+                startActivity(intent);
 
             }
         });

@@ -29,21 +29,27 @@ public class NumberDash extends AppCompatActivity {
         btnNumLearn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openNumberLearnAct();
+                //openNumberLearnAct();
+                Intent intent = new Intent(NumberDash.this,NumberLearn.class);
+                startActivity(intent);
             }
         });
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openAdditionAct();
+                //openAdditionAct();
+                Intent intent = new Intent(NumberDash.this,Addition.class);
+                startActivity(intent);
             }
         });
 
         btnSub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openSubtractAct();
+                //openSubtractAct();
+                Intent intent = new Intent(NumberDash.this,Subtract.class);
+                startActivity(intent);
             }
         });
 
