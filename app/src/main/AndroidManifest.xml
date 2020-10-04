@@ -11,8 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Mflowerchecking"></activity>
-        <activity android:name=".Mflowers" />
+        <activity android:name=".Mvehiclechecking"></activity>
+        <activity android:name=".Mvehicle" />
+        <activity android:name=".Mview" />
+        <activity
+            android:name=".Mflowerchecking"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Mflowers"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".Mchecking"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

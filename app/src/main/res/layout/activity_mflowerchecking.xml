@@ -4,61 +4,163 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg11"
     android:textAlignment="center"
     tools:context=".Mflowerchecking">
 
     <TextView
+        android:id="@+id/text19"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="40dp"
+        android:text="shoe flower"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text18"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <TextView
+        android:id="@+id/text18"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="64dp"
+        android:text="Okid"
+        android:textColor="#070707"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text17" />
+
+    <TextView
         android:id="@+id/text14"
-        android:layout_width="283dp"
-        android:layout_height="71dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="243dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/roundbuttonsach2"
-        android:text="Check Your Answers"
         android:gravity="center"
+        android:text="Answers"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.559"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView15"
+        android:id="@+id/crose"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/vass8"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="164dp" />
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/text15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text14"
+        app:srcCompat="@drawable/vass8" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/caraliya"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/vass9"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="266dp" />
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/text16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/crose"
+        app:srcCompat="@drawable/vass9" />
 
     <ImageView
-        android:id="@+id/imageview17"
+        android:id="@+id/canthuriam"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/vass10"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="365dp" />
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/text17"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caraliya"
+        app:srcCompat="@drawable/vass10" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/cokid"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/vass11"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="469dp" />
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/text18"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canthuriam"
+        app:srcCompat="@drawable/vass11" />
 
     <ImageView
-        android:id="@+id/imageView15"
+        android:id="@+id/cwada"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/vass12"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="566dp" />
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/text19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cokid"
+        app:layout_constraintVertical_bias="0.133"
+        app:srcCompat="@drawable/vass12" />
+
+    <TextView
+        android:id="@+id/text15"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="64dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:text="Rose"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text14" />
+
+    <TextView
+        android:id="@+id/text16"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="64dp"
+        android:text="Araliya"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text15" />
+
+    <TextView
+        android:id="@+id/text17"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="64dp"
+        android:text="Anthuriam"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text16" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="175dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:text="view your answer"
+        android:textColor="#FFFCFC"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

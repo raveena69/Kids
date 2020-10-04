@@ -16,7 +16,7 @@
         android:background="@drawable/roundbuttonsach2"
         android:text="Colours"
         android:textAlignment="center"
-        android:textColor="#715757"
+        android:textColor="?attr/colorAccent"
         android:textColorHighlight="#000000"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -33,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.74"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text8"
-        tools:srcCompat="@drawable/sred" />
+        app:srcCompat="@drawable/sred" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -44,28 +44,17 @@
         app:layout_constraintHorizontal_bias="0.74"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        tools:srcCompat="@drawable/sblue" />
-
-    <ImageView
-        android:id="@+id/imageview17"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toStartOf="@+id/inputtext3"
-        app:layout_constraintHorizontal_bias="0.74"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:srcCompat="@drawable/spink" />
+       app:srcCompat="@drawable/sblue" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toStartOf="@+id/inputtext4"
         app:layout_constraintHorizontal_bias="0.74"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageview17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
         app:srcCompat="@drawable/sgreen" />
 
     <ImageView
@@ -75,10 +64,10 @@
         android:layout_marginTop="20dp"
         app:layout_constraintBottom_toTopOf="@+id/bttn"
         app:layout_constraintEnd_toStartOf="@+id/inputtext5"
-        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintHorizontal_bias="0.779"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="0.941"
+        app:layout_constraintVertical_bias="0.055"
         app:srcCompat="@drawable/syellow" />
 
     <EditText
@@ -150,13 +139,25 @@
 
     <Button
         android:id="@+id/bttn"
-        android:layout_width="100dp"
+        android:layout_width="120dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="52dp"
+        android:background="#F10A54"
         android:text="submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/inputtext3"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/spink" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
