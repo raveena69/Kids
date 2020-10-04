@@ -30,43 +30,12 @@
         <activity
             android:name=".Mpictureidentify"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".MainActivity8"></activity>
+        <activity android:name=".MainActivity8" />
         <activity android:name=".MainActivity7" />
         <activity android:name=".MainActivity6" />
-        <activity android:name=".NCount" />
-        <activity
-            android:name=".Numbers"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".NHome" />
-        <activity android:name=".NumberTen"></activity>
-        <activity android:name=".NumberNine" />
-        <activity android:name=".NumberEight" />
-        <activity android:name=".NumberSeven" />
-        <activity android:name=".NumberSix" />
-        <activity android:name=".NumberFive" />
-        <activity android:name=".NumberFour" />
-        <activity android:name=".NumberThree" />
-        <activity android:name=".SubtractResult" />
-        <activity android:name=".Subtract" />
-        <activity android:name=".AdditionResult" />
-        <activity android:name=".Addition" />
-        <activity android:name=".NumberTwo" />
-        <activity android:name=".NumberOne" />
-        <activity android:name=".NumberLearn" />
-        <activity android:name=".NumberDash" />
-        <activity
-            android:name=".Alphabet"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
 
 
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
 
-        <activity android:name=".MainActivity3" />
-        <activity android:name=".MainActivity2" />
         <activity android:name=".NumberTen"
                   android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".NumberNine"
@@ -113,10 +82,11 @@
         </activity>
         <activity
             android:name=".LoginMainActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
         <activity
             android:name=".Registration"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".Login"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
@@ -124,12 +94,22 @@
         <activity
             android:name=".Dashboard"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
 
         </activity>
         <activity
             android:name=".OpeningPage"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".Comments"
