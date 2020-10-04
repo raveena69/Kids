@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".Mflowerchecking">
+
+    <TextView
+        android:id="@+id/text14"
+        android:layout_width="283dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/roundbuttonsach2"
+        android:text="Check Your Answers"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/vass8"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/vass9"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <ImageView
+        android:id="@+id/imageview17"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/vass10"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/vass11"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/vass12"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="566dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
