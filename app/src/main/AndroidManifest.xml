@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NumberOne"></activity>
+        <activity android:name=".NumberTwo"></activity>
+        <activity android:name=".NumberOne" />
         <activity android:name=".NumberLearn" />
         <activity android:name=".NumberDash" />
         <activity android:name=".Mchecking" />
