@@ -35,7 +35,14 @@
             android:name=".Numbers"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".NHome" />
-        <activity android:name=".NumberThree"></activity>
+        <activity android:name=".NumberTen"></activity>
+        <activity android:name=".NumberNine" />
+        <activity android:name=".NumberEight" />
+        <activity android:name=".NumberSeven" />
+        <activity android:name=".NumberSix" />
+        <activity android:name=".NumberFive" />
+        <activity android:name=".NumberFour" />
+        <activity android:name=".NumberThree" />
         <activity android:name=".SubtractResult" />
         <activity android:name=".Subtract" />
         <activity android:name=".AdditionResult" />

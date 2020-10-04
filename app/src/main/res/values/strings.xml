@@ -30,8 +30,6 @@
     <string name="_0">0</string>
     <string name="_2">2</string>
     <string name="_1">1</string>
-    <string name="subtract">Subtract</string>
-    <string name="addition">Addition</string>
     <string name="headingt1">App Name</string>
     <string name="numbers">Numbers</string>
     <string name="learn_to_count">Learn To Count</string>
@@ -53,6 +51,36 @@
     <string name="your_email_address">Your Email Address</string>
     <string name="phone">Phone</string>
     <string name="save">Save</string>
+    <string name="submit_and_next">Submit and Next</string>
+    <string name="finish">Finish</string>
+    <string name="ten_10">TEN 10</string>
+    <string name="pronounce_ten">Pronounce TEN</string>
+    <string name="pronounce_nine">Pronounce NINE</string>
+    <string name="nine_9">NINE 9</string>
+    <string name="pronounce_eight">Pronounce EIGHT</string>
+    <string name="eight_8">EIGHT 8</string>
+    <string name="pronounce_seven">Pronounce SEVEN</string>
+    <string name="seven_7">SEVEN 7</string>
+    <string name="pronounce_six">Pronounce SIX</string>
+    <string name="six_6">SIX 6</string>
+    <string name="five_5">FIVE 5</string>
+    <string name="pronounce_five">Pronounce Five</string>
+    <string name="pronounce_four">Pronounce Four</string>
+    <string name="four_4">FOUR 4</string>
+    <string name="three_3">THREE 3</string>
+    <string name="pronounce_three">Pronounce Three</string>
+    <string name="two_2">Two 2</string>
+    <string name="pronounce_two">Pronounce Two</string>
+    <string name="one_1">ONE 1</string>
+    <string name="pronounce_one">Pronounce One</string>
+    <string name="Name">name</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="learning_numbers">Learning Numbers</string>
+    <string name="numbering">Numbering</string>
+    <string name="addition">Addition</string>
+    <string name="subtract">Subtract</string>
+    <string name="delete_stats">Delete Stats</string>
+
 </resources>
 
 

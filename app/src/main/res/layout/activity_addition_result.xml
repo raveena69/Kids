@@ -11,7 +11,7 @@
         android:id="@+id/btnDeleteAddRes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Delete Stats" />
+        android:text="@string/delete_stats" />
 
     <ListView
         android:id="@+id/addListView"

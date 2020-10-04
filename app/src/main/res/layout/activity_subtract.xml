@@ -27,29 +27,27 @@
         android:id="@+id/btnFinishSub"
         android:layout_width="114dp"
         android:layout_height="46dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
+        android:layout_marginEnd="28dp"
         android:background="@drawable/numberbtndash"
-        android:text="Finish"
+        android:text="@string/finish"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.772" />
+        app:layout_constraintVertical_bias="0.775" />
 
     <Button
         android:id="@+id/btnSubmitSub"
         android:layout_width="159dp"
         android:layout_height="48dp"
         android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
         android:background="@drawable/numberbtndash"
-        android:text="Submit and Next"
+        android:text="@string/submit_and_next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnFinishSub"
-        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.773" />
+        app:layout_constraintVertical_bias="0.774" />
 
     <TextView
         android:id="@+id/textView5"
@@ -58,7 +56,7 @@
         android:background="@drawable/numberinghead"
         android:fontFamily="@font/bungee"
         android:gravity="center"
-        android:text="Subtraction"
+        android:text="@string/subtraction"
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -105,7 +103,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.356"
-        app:srcCompat="@drawable/additionclip1" />
+        app:srcCompat="@drawable/subtractionclip" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

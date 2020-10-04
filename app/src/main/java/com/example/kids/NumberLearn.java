@@ -123,36 +123,36 @@ public class NumberLearn extends AppCompatActivity {
         startActivity(intent);
     }
     public void openNumberThreeAct (){
-        //Intent intent = new Intent(this, NumberThree.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, NumberThree.class);
+        startActivity(intent);
     }
     public void openNumberFourAct (){
-       // Intent intent = new Intent(this, NumberFour.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, NumberFour.class);
+        startActivity(intent);
     }
     public void openNumberFiveAct (){
-        //Intent intent = new Intent(this, NumberFive.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, NumberFive.class);
+        startActivity(intent);
     }
     public void openNumberSixAct (){
-       // Intent intent = new Intent(this, NumberSix.class);
-       // startActivity(intent);
+       Intent intent = new Intent(this, NumberSix.class);
+       startActivity(intent);
     }
     public void openNumberSevenAct (){
-       /// Intent intent = new Intent(this, NumberSeven.class);
-       // startActivity(intent);
+        Intent intent = new Intent(this, NumberSeven.class);
+        startActivity(intent);
     }
     public void openNumberEightAct (){
-        //Intent intent = new Intent(this, NumberEight.class);
-       // startActivity(intent);
+        Intent intent = new Intent(this, NumberEight.class);
+        startActivity(intent);
     }
     public void openNumberNineAct (){
-       // Intent intent = new Intent(this, NumberNine.class);
-      //  startActivity(intent);
+       Intent intent = new Intent(this, NumberNine.class);
+       startActivity(intent);
     }
     public void openNumberTenAct (){
-        //Intent intent = new Intent(this, NumberTen.class);
-       // startActivity(intent);
+        Intent intent = new Intent(this, NumberTen.class);
+        startActivity(intent);
     }
 
 
