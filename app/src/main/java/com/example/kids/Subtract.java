@@ -17,7 +17,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Random;
 
-public class Addition extends AppCompatActivity {
+public class Subtract extends AppCompatActivity {
 
     Button btnSubmit;
     Button btnFinish;
@@ -25,26 +25,23 @@ public class Addition extends AppCompatActivity {
     TextView tvNum2;
     EditText etAns;
     DatabaseReference reff;
-    AdditionTable addTable;
-
-
+    SubtractTable subTable;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_addition);
+        setContentView(R.layout.activity_subtract);
 
-
-        btnSubmit = (Button) findViewById(R.id.btnSubmitAdd);
-        btnFinish = (Button)findViewById(R.id.btnFinishAdd);
-        tvNum1 = (TextView) findViewById(R.id.tvNum1);
-        tvNum2 = (TextView) findViewById(R.id.tvNum2);
-        etAns = (EditText) findViewById(R.id.etAnswer);
-        addTable= new AdditionTable();
-        reff= FirebaseDatabase.getInstance().getReference().child("AdditionTable");
-
+        btnSubmit = (Button) findViewById(R.id.btnSubmitSub);
+        btnFinish = (Button)findViewById(R.id.btnFinishSub);
+        tvNum1 = (TextView) findViewById(R.id.tvSubNum1);
+        tvNum2 = (TextView) findViewById(R.id.tvSubNum2);
+        etAns = (EditText) findViewById(R.id.etSubAnswer);
+        subTable= new SubtractTable();
+        reff= FirebaseDatabase.getInstance().getReference().child("SubtractTable");
 
         RunReset();
+
 
 
         btnSubmit.setOnClickListener(new View.OnClickListener() {
@@ -53,12 +50,13 @@ public class Addition extends AppCompatActivity {
 
                 String etAnstTest =etAns.getText().toString();
                 if (etAnstTest.matches("")){
-                    Toast.makeText(Addition.this, "Please enter the answer and next", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Subtract.this, "Please enter the answer and next", Toast.LENGTH_SHORT).show();
                 }else {
 
                     int num1 = Integer.parseInt(tvNum1.getText().toString());
                     int num2 = Integer.parseInt(tvNum2.getText().toString());
-                    int ans = num1 + num2;
+
+                    int ans = num1 - num2;
 
                     int get_user_ans = Integer.parseInt(etAns.getText().toString());
 
@@ -66,22 +64,22 @@ public class Addition extends AppCompatActivity {
                     //res++;
 
                     if (ans== get_user_ans){
-                        addTable.setAdditionalNum1(num1);
-                        addTable.setAdditionalNum2(num2);
-                        addTable.setCorrectAnswer(ans);
-                        addTable.setUserAnswer(get_user_ans);
-                        addTable.setResult(true);
-                        reff.push().setValue(addTable);
-                        Toast.makeText(Addition.this, "Correct: "+ans, Toast.LENGTH_SHORT).show();
+                        subTable.setSubtractNum1(num1);
+                        subTable.setSubtractNum2(num2);
+                        subTable.setCorrectAnswer(ans);
+                        subTable.setUserAnswer(get_user_ans);
+                        subTable.setResult(true);
+                        reff.push().setValue(subTable);
+                        Toast.makeText(Subtract.this, "Correct: "+ans, Toast.LENGTH_SHORT).show();
                     }
                     else {
-                        addTable.setAdditionalNum1(num1);
-                        addTable.setAdditionalNum2(num2);
-                        addTable.setCorrectAnswer(ans);
-                        addTable.setUserAnswer(get_user_ans);
-                        addTable.setResult(false);
-                        reff.push().setValue(addTable);
-                        Toast.makeText(Addition.this, "Incorrect: " + ans, Toast.LENGTH_SHORT).show();
+                        subTable.setSubtractNum1(num1);
+                        subTable.setSubtractNum2(num2);
+                        subTable.setCorrectAnswer(ans);
+                        subTable.setUserAnswer(get_user_ans);
+                        subTable.setResult(false);
+                        reff.push().setValue(subTable);
+                        Toast.makeText(Subtract.this, "Incorrect: " + ans, Toast.LENGTH_SHORT).show();
                     }
 
                     RunReset();
@@ -90,15 +88,14 @@ public class Addition extends AppCompatActivity {
             }
         });
 
+
+
         btnFinish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finishGameDialog();
             }
         });
-
-
-
 
 
     }
@@ -110,6 +107,10 @@ public class Addition extends AppCompatActivity {
         int number1 = rand.nextInt(9) +1;
         int number2 = rand.nextInt(9)+1;
 
+        if (number1<number2){
+            number1 = number1+number2+2;
+        }
+
         tvNum1.setText(""+number1);
         tvNum2.setText(""+number2);
         etAns.setText("");
@@ -117,7 +118,7 @@ public class Addition extends AppCompatActivity {
 
 
     private void finishGameDialog(){
-        AlertDialog.Builder builder = new AlertDialog.Builder(Addition.this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(Subtract.this);
         builder.setTitle("Proceed");
         builder.setMessage("Do yo want to finish the quiz");
         builder.setPositiveButton("yes", new DialogInterface.OnClickListener() {
@@ -139,7 +140,9 @@ public class Addition extends AppCompatActivity {
     }
 
     public void openAddResultAct(){
-       Intent intent = new Intent(this,AdditionResult.class);
-        startActivity(intent);
+        //Intent intent = new Intent(this,SubtractResult.class);
+        //startActivity(intent);
     }
+
+
 }
