@@ -47,6 +47,17 @@
        app:srcCompat="@drawable/sblue" />
 
     <ImageView
+        android:id="@+id/imageview17"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/inputtext3"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/spink" />
+
+    <ImageView
         android:id="@+id/imageView10"
         android:layout_width="75dp"
         android:layout_height="75dp"

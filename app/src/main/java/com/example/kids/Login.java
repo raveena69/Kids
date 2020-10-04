@@ -1,5 +1,6 @@
 package com.example.kids;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -28,6 +29,10 @@ public class Login extends AppCompatActivity {
     TextView mCreateBtn,forgotTextLink;
     ProgressBar progressBar;
     FirebaseAuth fAuth;
+
+    public Login(Context mMockContext) {
+
+    }
 
 
     @Override

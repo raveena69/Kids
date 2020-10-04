@@ -30,12 +30,20 @@
             android:name=".Mpictureidentify"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".subtract" />
-        <activity android:name=".Addition" />
         <activity android:name=".NCount" />
         <activity
             android:name=".Numbers"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".NHome" />
+        <activity android:name=".NumberThree"></activity>
+        <activity android:name=".SubtractResult" />
+        <activity android:name=".Subtract" />
+        <activity android:name=".AdditionResult" />
+        <activity android:name=".Addition" />
+        <activity android:name=".NumberTwo" />
+        <activity android:name=".NumberOne" />
+        <activity android:name=".NumberLearn" />
+        <activity android:name=".NumberDash" />
         <activity
             android:name=".Alphabet"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

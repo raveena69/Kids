@@ -27,10 +27,6 @@ public class Mpictureidentify extends AppCompatActivity {
         text6 = findViewById(R.id.text6);
         text4   = findViewById(R.id.text4);
         text7   = findViewById(R.id.text7);
-        image=findViewById(R.id.imageView1);
-
-       //Glide.with(getApplicationContext()).load("https://firebasestorage.googleapis.com/v0/b/kids-489bb.appspot.com/o/Psach.png?alt=media&token=69c0d72b-aadc-4364-aef5-c441a038f9c1").into(image);
-
         text2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
