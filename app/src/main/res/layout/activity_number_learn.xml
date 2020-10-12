@@ -11,12 +11,14 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="240dp"
+        android:layout_width="270dp"
         android:layout_height="46dp"
         android:background="#6387C6"
+        android:textColor="#000000"
         android:gravity="center"
         android:text="@string/learning_numbers"
-        android:textSize="25sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,46 +26,62 @@
         app:layout_constraintVertical_bias="0.101" />
 
     <Button
-        android:id="@+id/btnOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="One 1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251" />
-
-    <Button
-        android:id="@+id/btnSeven"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Seven 7"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.676" />
-
-    <Button
         android:id="@+id/btnFour"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Four 4"
+        android:layout_width="93dp"
+        android:layout_height="49dp"
+        android:background="@drawable/numshoutimg"
+        android:text="@string/four_4x"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintHorizontal_bias="0.138"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.461" />
 
     <Button
+        android:id="@+id/btnOne"
+        android:layout_width="93dp"
+        android:layout_height="49dp"
+        android:background="@drawable/numshoutimg"
+        android:text="@string/one_1xx"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/btnSeven"
+        android:layout_width="93dp"
+        android:layout_height="49dp"
+        android:background="@drawable/numshoutimg"
+        android:text="@string/seven_7x"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.675" />
+
+    <Button
         android:id="@+id/btnTen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ten 10"
+        android:layout_width="93dp"
+        android:layout_height="49dp"
+        android:background="@drawable/numshoutimg"
+        android:text="@string/ten_10x"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -73,21 +91,61 @@
 
     <Button
         android:id="@+id/btnNine"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nine 9"
+        android:layout_width="93dp"
+        android:layout_height="49dp"
+        android:background="@drawable/numshoutimg"
+        android:text="@string/nine_9x"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintHorizontal_bias="0.88"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.676" />
+        app:layout_constraintVertical_bias="0.675" />
+
+    <Button
+        android:id="@+id/btnThree"
+        android:layout_width="93dp"
+        android:layout_height="49dp"
+        android:background="@drawable/numshoutimg"
+        android:text="@string/three_3x"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/btnSix"
+        android:layout_width="93dp"
+        android:layout_height="49dp"
+        android:background="@drawable/numshoutimg"
+        android:text="@string/six_6x"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
 
     <Button
         android:id="@+id/btnEight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Eight 8"
+        android:layout_width="93dp"
+        android:layout_height="49dp"
+        android:background="@drawable/numshoutimg"
+        android:text="@string/eight_8x"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -96,34 +154,14 @@
         app:layout_constraintVertical_bias="0.676" />
 
     <Button
-        android:id="@+id/btnThree"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Three 3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.823"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251" />
-
-    <Button
-        android:id="@+id/btnSix"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Six 6"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.823"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.461" />
-
-    <Button
         android:id="@+id/btnFive"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Five 5"
+        android:layout_width="93dp"
+        android:layout_height="49dp"
+        android:background="@drawable/numshoutimg"
+        android:text="@string/five_5xx"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -133,9 +171,13 @@
 
     <Button
         android:id="@+id/btnTwo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="93dp"
+        android:layout_height="49dp"
+        android:background="@drawable/numshoutimg"
         android:text="@string/two_2"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
