@@ -73,7 +73,7 @@ public class SubtractResult extends AppCompatActivity {
                     list.add("Maths Question        :   "+ num1 + " - "+num2+ "\n"
                             +"User Answer              :   "+userans+"\n"
                             +"Correct Answer         :   "+correctans+"\n"
-                            +"Result                          :   "+res);
+                            +"Result                        :   "+res);
 
                 }
                 listView.setAdapter(adapter);
