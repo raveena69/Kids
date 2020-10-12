@@ -34,6 +34,10 @@ public class Login extends AppCompatActivity {
 
     }
 
+    public Login() {
+
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,7 +100,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-               //mCreateBtn = (Button) findViewById(R.id.textView2);
+                //mCreateBtn = (Button) findViewById(R.id.textView2);
                 startActivity(new Intent(getApplicationContext(), Registration.class));
 
                 //Intent intent = new Intent(Login.this,Registration.class);
