@@ -12,29 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Mvehiclechecking" />
-        <activity android:name=".Mvehicle" />
-        <activity android:name=".Mview" />
-        <activity
-            android:name=".Mflowerchecking"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".Mflowers"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".Mchecking"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".Mcolours"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".Mpictureidentify"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".MainActivity8" />
         <activity android:name=".MainActivity7" />
         <activity android:name=".MainActivity6" />
-
-
 
         <activity android:name=".NumberTen"
                   android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
