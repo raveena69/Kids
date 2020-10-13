@@ -63,7 +63,6 @@
     <string name="seven_7">SEVEN 7</string>
     <string name="pronounce_six">Pronounce SIX</string>
     <string name="six_6">SIX 6</string>
-    <string name="five_5">FIVE 5</string>
     <string name="pronounce_five">Pronounce Five</string>
     <string name="pronounce_four">Pronounce Four</string>
     <string name="four_4">FOUR 4</string>
@@ -80,6 +79,15 @@
     <string name="addition">Addition</string>
     <string name="subtract">Subtract</string>
     <string name="delete_stats">Delete Stats</string>
+    <string name="five_5xx">Five 5</string>
+    <string name="one_1xx">One 1</string>
+    <string name="seven_7x">Seven 7</string>
+    <string name="four_4x">Four 4</string>
+    <string name="ten_10x">Ten 10</string>
+    <string name="nine_9x">Nine 9</string>
+    <string name="eight_8x">Eight 8</string>
+    <string name="three_3x">Three 3</string>
+    <string name="six_6x">Six 6</string>
 
 </resources>
 
