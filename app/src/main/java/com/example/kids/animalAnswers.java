@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Mflowerchecking extends AppCompatActivity {
+public class animalAnswers extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mflowerchecking);
+        setContentView(R.layout.activity_animal_answers);
     }
 }

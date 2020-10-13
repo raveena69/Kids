@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg10"
+    tools:context=".flowerAnswer">
+
+
+    <ImageView
+        android:id="@+id/arose1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="64dp"
+
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/pfloweranswer1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flowerAnswer"
+        app:srcCompat="@drawable/vass8" />
+
+    <ImageView
+        android:id="@+id/aaraliya1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="64dp"
+
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/pfloweranswer2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arose1"
+        app:srcCompat="@drawable/vass9" />
+
+    <ImageView
+        android:id="@+id/aanthuriam1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toStartOf="@+id/pfloweranswer3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aaraliya1"
+        app:srcCompat="@drawable/vass10" />
+
+    <ImageView
+        android:id="@+id/aokid1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/pfloweranswer4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aanthuriam1"
+        app:srcCompat="@drawable/vass11" />
+
+    <ImageView
+        android:id="@+id/awada1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="64dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/viewbutton2"
+        app:layout_constraintEnd_toStartOf="@+id/pfloweranswer5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aokid1"
+        app:layout_constraintVertical_bias="0.514"
+        app:srcCompat="@drawable/vass12" />
+
+    <Button
+        android:id="@+id/viewbutton2"
+        android:layout_width="184dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="44dp"
+        android:background="#027731"
+        android:text="view my answer"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/pfloweranswer1"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="96dp"
+        android:background="#9F9C9C"
+        android:paddingTop="2dp"
+        android:text="Rose"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flowerAnswer" />
+
+    <TextView
+        android:id="@+id/pfloweranswer2"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="96dp"
+        android:background="#9F9C9C"
+        android:paddingTop="2dp"
+        android:text="Araliya"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pfloweranswer1" />
+
+    <TextView
+        android:id="@+id/pfloweranswer3"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="96dp"
+        android:background="#9F9C9C"
+        android:paddingTop="2dp"
+        android:text="Anthuriam"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pfloweranswer2" />
+
+    <TextView
+        android:id="@+id/pfloweranswer4"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="96dp"
+        android:background="#9F9C9C"
+        android:paddingTop="2dp"
+        android:text="Okid"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pfloweranswer3" />
+
+    <TextView
+        android:id="@+id/pfloweranswer5"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="96dp"
+        android:background="#9F9C9C"
+        android:paddingTop="2dp"
+        android:text="Shoe flower"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/viewbutton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pfloweranswer4"
+        app:layout_constraintVertical_bias="0.717" />
+
+    <TextView
+        android:id="@+id/flowerAnswer"
+        android:layout_width="168dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/roundbuttonsach6"
+        android:paddingTop="4dp"
+        android:text="Answer"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
