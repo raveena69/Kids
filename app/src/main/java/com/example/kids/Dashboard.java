@@ -31,7 +31,7 @@ public class Dashboard extends AppCompatActivity {
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     StorageReference storageReference;
-    RelativeLayout alphabet,numbers,pictures,stories,profile;
+    RelativeLayout alphabet,numbers,picture,stories,profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +40,7 @@ public class Dashboard extends AppCompatActivity {
 
         alphabet   = findViewById(R.id.alphabet);
         numbers   = findViewById(R.id.numbers);
-        pictures   = findViewById(R.id.pictures);
+        picture  = findViewById(R.id.pictures);
         stories = findViewById(R.id.stories);
         profile   = findViewById(R.id.profile);
 
@@ -61,11 +61,11 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        pictures.setOnClickListener(new View.OnClickListener() {
+        picture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Dashboard.this,Mpictureidentify.class);
+                Intent intent = new Intent(Dashboard.this,Mypicture.class);
                 startActivity(intent);
             }
         });
