@@ -4,20 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home1"
-    tools:context=".family">
-
+    android:background="@drawable/vsach1"
+    tools:context=".Vehicles">
 
     <TextView
-        android:id="@+id/family"
-        android:layout_width="168dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="24dp"
+        android:id="@+id/pvehicle"
+        android:layout_width="206dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/roundbuttonsach6"
         android:paddingTop="4dp"
-        android:text="Family"
+        android:text="Vehicle"
         android:textAlignment="center"
-        android:textColor="#090909"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,138 +24,139 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/farther"
+        android:id="@+id/car"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:layout_marginTop="44dp"
-        app:layout_constraintEnd_toStartOf="@+id/inputfam1"
-        app:layout_constraintHorizontal_bias="0.701"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/inputvehicle1"
+        app:layout_constraintHorizontal_bias="0.572"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/family"
-        app:srcCompat="@drawable/farther" />
+        app:layout_constraintTop_toBottomOf="@+id/pvehicle"
+        app:srcCompat="@drawable/v1" />
 
     <ImageView
-        android:id="@+id/mother"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintEnd_toStartOf="@+id/inputfam2"
-        app:layout_constraintHorizontal_bias="0.701"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/farther"
-        app:srcCompat="@drawable/mother" />
-
-    <ImageView
-        android:id="@+id/brother"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintEnd_toStartOf="@+id/inputfam3"
-        app:layout_constraintHorizontal_bias="0.701"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mother"
-        app:srcCompat="@drawable/brother" />
-
-
-    <ImageView
-        android:id="@+id/sister"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintEnd_toStartOf="@+id/inputfam4"
-        app:layout_constraintHorizontal_bias="0.701"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/brother"
-        app:srcCompat="@drawable/sister" />
-
-    <ImageView
-        android:id="@+id/baby"
+        android:id="@+id/bus"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginTop="28dp"
-        app:layout_constraintBottom_toTopOf="@+id/familybutton"
-        app:layout_constraintEnd_toStartOf="@+id/inputfam5"
-        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintEnd_toStartOf="@+id/inputvehicle2"
+        app:layout_constraintHorizontal_bias="0.574"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sister"
-        app:layout_constraintVertical_bias="0.057"
-        app:srcCompat="@drawable/baby" />
+        app:layout_constraintTop_toBottomOf="@+id/car"
+        app:srcCompat="@drawable/v2" />
+
+    <ImageView
+        android:id="@+id/van"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/inputvehicle3"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bus"
+        app:srcCompat="@drawable/v3" />
+
+    <ImageView
+        android:id="@+id/jeep"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/inputvehicle4"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/van"
+        app:srcCompat="@drawable/v4" />
+
+    <ImageView
+        android:id="@+id/train"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/vehiclebutton"
+        app:layout_constraintEnd_toStartOf="@+id/inputvehicle5"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jeep"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/v5" />
 
     <EditText
-        android:id="@+id/inputfam1"
+        android:id="@+id/inputvehicle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter vehicle name"
+        android:textColor="#D10202"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pvehicle" />
+
+    <EditText
+        android:id="@+id/inputvehicle2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="44dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="enter animal name"
-        android:textColor="#000000"
+        android:text="enter vehicle name"
+        android:textColor="#D10202"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/family" />
+        app:layout_constraintTop_toBottomOf="@+id/inputvehicle1" />
 
     <EditText
-        android:id="@+id/inputfam2"
+        android:id="@+id/inputvehicle3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="44dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="enter animal name"
-        android:textColor="#000000"
+        android:text="enter vehicle name"
+        android:textColor="#D10202"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputfam1" />
+        app:layout_constraintTop_toBottomOf="@+id/inputvehicle2" />
 
     <EditText
-        android:id="@+id/inputfam3"
+        android:id="@+id/inputvehicle4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="44dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="enter animal name"
-        android:textColor="#000000"
+        android:text="enter vehicle name"
+        android:textColor="#D10202"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputfam2" />
+        app:layout_constraintTop_toBottomOf="@+id/inputvehicle3" />
 
     <EditText
-        android:id="@+id/inputfam4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="40dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="enter animal name"
-        android:textColor="#000000"
-        android:textStyle="italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputfam3" />
-
-    <EditText
-        android:id="@+id/inputfam5"
+        android:id="@+id/inputvehicle5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
+        android:layout_marginBottom="52dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="enter animal name"
-        android:textColor="#000000"
+        android:text="enter vehicle name"
+        android:textColor="#D10202"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/familybutton"
+        app:layout_constraintBottom_toTopOf="@+id/vehiclebutton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputfam4" />
-		
+        app:layout_constraintTop_toBottomOf="@+id/inputvehicle4"
+        app:layout_constraintVertical_bias="0.781" />
+
     <Button
-        android:id="@+id/familybutton"
+        android:id="@+id/vehiclebutton"
         android:layout_width="184dp"
         android:layout_height="43dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="32dp"
         android:background="#027731"
         android:text="Finish"
         android:textColor="#FFFFFF"
@@ -166,4 +165,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

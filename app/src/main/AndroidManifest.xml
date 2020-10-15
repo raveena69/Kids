@@ -48,6 +48,41 @@
                   android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".NumberDash"
                   android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".VehicleAnswer"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".Vehicles"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".AnimalAnswer"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".Animals"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".FamilyAnswer"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".Family"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".FlowerAnswer"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".Flowers"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".SChecking"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".SColours"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".PictureIdentify"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".EditProfile" />
+        <activity android:name=".LoginMainActivity" />
         <activity
             android:name=".Alphabet"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/home1"
-    tools:context=".familyAnswer">
-
+    tools:context=".FamilyAnswer">
 
     <TextView
         android:id="@+id/famAnswer"
@@ -161,8 +160,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/viewbutton5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/familyans4"
-        app:layout_constraintVertical_bias="0.63" />
+        app:layout_constraintTop_toBottomOf="@+id/familyans4" />
 
     <Button
         android:id="@+id/viewbutton5"

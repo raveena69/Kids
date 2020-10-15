@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg10"
-    tools:context=".flowerAnswer">
-
+    android:background="@drawable/home1"
+    tools:context=".FlowerAnswer">
 
     <ImageView
         android:id="@+id/arose1"

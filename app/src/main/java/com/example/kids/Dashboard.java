@@ -52,7 +52,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Dashboard.this,Mypicture.class);
+                Intent intent = new Intent(Dashboard.this,PictureIdentify.class);
                 startActivity(intent);
             }
         });

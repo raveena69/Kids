@@ -7,24 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Animals extends AppCompatActivity {
+public class Vehicles extends AppCompatActivity {
 
-
-    Button animalbutton;
+    Button vehiclebutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_animals);
+        setContentView(R.layout.activity_vehicles);
 
-        animalbutton=findViewById(R.id.animalbutton);
+        vehiclebutton=findViewById(R.id.vehiclebutton);
 
 
-        animalbutton.setOnClickListener(new View.OnClickListener() {
+        vehiclebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Animals.this,AnimalAnswer.class);
+                Intent intent = new Intent(Vehicles.this,VehicleAnswer.class);
                 startActivity(intent);
             }
         });
