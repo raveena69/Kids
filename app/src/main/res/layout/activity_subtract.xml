@@ -8,6 +8,44 @@
     android:background="@drawable/numberbg"
     tools:context=".Subtract">
 
+    <Button
+        android:id="@+id/btnFinishSub"
+        android:layout_width="114dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/numberbtndash"
+        android:text="@string/finish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797" />
+
+    <TextView
+        android:id="@+id/tvSubNum2"
+        android:layout_width="92dp"
+        android:layout_height="57dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="64dp"
+        android:layout_height="83dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.379"
+        app:srcCompat="@drawable/subtractionclip" />
+
     <EditText
         android:id="@+id/etSubAnswer"
         android:layout_width="125dp"
@@ -19,21 +57,24 @@
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.541" />
+        app:layout_constraintVertical_bias="0.563" />
 
-    <Button
-        android:id="@+id/btnFinishSub"
-        android:layout_width="114dp"
-        android:layout_height="46dp"
-        android:layout_marginEnd="28dp"
-        android:background="@drawable/numberbtndash"
-        android:text="@string/finish"
+    <TextView
+        android:id="@+id/tvSubNum1"
+        android:layout_width="92dp"
+        android:layout_height="57dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textSize="45sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.775" />
+        app:layout_constraintVertical_bias="0.385" />
 
     <Button
         android:id="@+id/btnSubmitSub"
@@ -47,7 +88,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.774" />
+        app:layout_constraintVertical_bias="0.796" />
 
     <TextView
         android:id="@+id/textView5"
@@ -64,46 +105,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.127" />
-
-    <TextView
-        android:id="@+id/tvSubNum1"
-        android:layout_width="92dp"
-        android:layout_height="57dp"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:textSize="45sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.159"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.363" />
-
-    <TextView
-        android:id="@+id/tvSubNum2"
-        android:layout_width="92dp"
-        android:layout_height="57dp"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:textSize="45sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.84"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.363" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="64dp"
-        android:layout_height="83dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356"
-        app:srcCompat="@drawable/subtractionclip" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

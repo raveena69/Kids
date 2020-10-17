@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vsach2"
+    tools:context=".VehicleAnswer">
+
+    <TextView
+        android:id="@+id/vehicleAnswer"
+        android:layout_width="168dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/roundbuttonsach6"
+        android:paddingTop="4dp"
+        android:text="answer"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/acar"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toStartOf="@+id/pvehicleanswer1"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehicleAnswer"
+        app:srcCompat="@drawable/v1" />
+
+    <ImageView
+        android:id="@+id/abus"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/pvehicleanswer2"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acar"
+        app:srcCompat="@drawable/v2" />
+
+    <ImageView
+        android:id="@+id/avan"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/pvehicleanswer3"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/abus"
+        app:srcCompat="@drawable/v3" />
+
+    <ImageView
+        android:id="@+id/ajeep"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/pvehicleanswer4"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avan"
+        app:srcCompat="@drawable/v4" />
+
+    <ImageView
+        android:id="@+id/atrain"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/viewbutton3"
+        app:layout_constraintEnd_toStartOf="@+id/pvehicleanswer5"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ajeep"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@drawable/v5" />
+
+    <TextView
+        android:id="@+id/pvehicleanswer1"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="84dp"
+        android:background="#9F9C9C"
+        android:paddingTop="2dp"
+        android:text="Car"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehicleAnswer" />
+
+    <TextView
+        android:id="@+id/pvehicleanswer2"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="84dp"
+        android:background="#9F9C9C"
+        android:paddingTop="2dp"
+        android:text="Bus"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pvehicleanswer1" />
+
+    <TextView
+        android:id="@+id/pvehicleanswer3"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="84dp"
+        android:background="#9F9C9C"
+        android:paddingTop="2dp"
+        android:text="Van"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pvehicleanswer2" />
+
+    <TextView
+        android:id="@+id/pvehicleanswer4"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="84dp"
+        android:background="#9F9C9C"
+        android:paddingTop="2dp"
+        android:text="Jeep"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pvehicleanswer3" />
+
+    <TextView
+        android:id="@+id/pvehicleanswer5"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="84dp"
+        android:background="#9F9C9C"
+        android:paddingTop="2dp"
+        android:text="Train"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/viewbutton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pvehicleanswer4"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <Button
+        android:id="@+id/viewbutton3"
+        android:layout_width="184dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="32dp"
+        android:background="#027731"
+        android:text="view my answer"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

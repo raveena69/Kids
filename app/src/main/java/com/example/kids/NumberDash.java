@@ -29,7 +29,6 @@ public class NumberDash extends AppCompatActivity {
         btnNumLearn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //openNumberLearnAct();
                 Intent intent = new Intent(NumberDash.this,NumberLearn.class);
                 startActivity(intent);
             }
@@ -38,7 +37,7 @@ public class NumberDash extends AppCompatActivity {
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //openAdditionAct();
+
                 Intent intent = new Intent(NumberDash.this,Addition.class);
                 startActivity(intent);
             }
@@ -47,29 +46,13 @@ public class NumberDash extends AppCompatActivity {
         btnSub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //openSubtractAct();
+
                 Intent intent = new Intent(NumberDash.this,Subtract.class);
                 startActivity(intent);
             }
         });
 
 
-    }
-
-
-    public void openNumberLearnAct(){
-        //Intent intent = new Intent(this,NumberLearn.class);
-       // startActivity(intent);
-    }
-
-    public void openAdditionAct(){
-        //Intent intent = new Intent(this,Addition.class);
-       // startActivity(intent);
-    }
-
-    public void openSubtractAct(){
-        //Intent intent = new Intent(this,Subtract.class);
-        //startActivity(intent);
     }
 
 

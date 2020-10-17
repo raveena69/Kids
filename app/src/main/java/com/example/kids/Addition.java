@@ -63,8 +63,6 @@ public class Addition extends AppCompatActivity {
                     int get_user_ans = Integer.parseInt(etAns.getText().toString());
 
 
-                    //res++;
-
                     if (ans== get_user_ans){
                         addTable.setAdditionalNum1(num1);
                         addTable.setAdditionalNum2(num2);
@@ -119,7 +117,7 @@ public class Addition extends AppCompatActivity {
     private void finishGameDialog(){
         AlertDialog.Builder builder = new AlertDialog.Builder(Addition.this);
         builder.setTitle("Proceed");
-        builder.setMessage("Do yo want to finish the quiz");
+        builder.setMessage("Do yo want to finish the quiz?");
         builder.setPositiveButton("yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
